@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #1f2937;
+}
+header {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 16px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.whatsapp-button {
+  background-color: #10b981;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.hero {
+  background-color: #1e40af;
+  color: white;
+  text-align: center;
+  padding: 64px 16px;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 16px;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+}
+.hero a {
+  background-color: #facc15;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.section {
+  padding: 48px 16px;
+  background-color: white;
+}
+.section-gray {
+  background-color: #e5e7eb;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.section h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 32px;
+}
+.grid {
+  display: grid;
+  gap: 24px;
+}
+@media (min-width: 768px) {
+  .grid-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .grid-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+#contato{
+  transition: all 0.6 ease;
+}
+#contato:hover{
+  transform: translateY(-5px) ;
+}
+.card {
+  background-color: #f3f4f6;
+  padding: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.list li {
+  margin-bottom: 12px;
+}
+form input, form textarea, form button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 4px;
+  border: none;
+  font-size: 1rem;
+}
+form textarea {
+  resize: vertical;
+}
+form button {
+  background-color: #facc15;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 32px 16px;
+}
+iframe {
+  width: 100%;
+  border: none;
+  margin-top: 16px;
+}
