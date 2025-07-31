@@ -1,3 +1,6 @@
+*{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -7,25 +10,24 @@ body {
 header {
   background-color: #1e3a8a;
   color: white;
-  padding: 16px;
+  padding: 0 16px;
+  display: flex;
 }
 .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 16px;
   width: 100%;
-  /* max-width: 1200px; */
-  margin: 0 auto;
-  padding: 0 16px;
+  flex-wrap: wrap;
 }
-.whatsapp-button {
-  background-color: #10b981;
-  color: white;
-  padding: 8px 16px;
-  border: none;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
+.socialMedias{
+  display: flex;
+  width: 20%;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+
 }
 .hero {
   background-color: #1e40af;
@@ -48,6 +50,10 @@ header {
   border-radius: 4px;
   font-weight: bold;
   text-decoration: none;
+  transition: all 0.6 ease;
+}
+.hero a:hover{
+  transform: translateY(-5px);
 }
 .section {
   padding: 48px 16px;
@@ -121,4 +127,24 @@ iframe {
   width: 100%;
   border: none;
   margin-top: 16px;
+}
+
+@media (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-buttons {
+    margin-top: 10px;
+  }
+  .socialMedias{
+  display: flex;
+  gap:50px;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 }
