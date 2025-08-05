@@ -8,7 +8,7 @@ body {
   color: #1f2937;
 }
 header {
-  background-color: #1e3a8a;
+  background-color: #860404;
   color: white;
   padding: 0 16px;
   display: flex;
@@ -26,11 +26,15 @@ header {
   width: 20%;
   flex-direction: row;
   align-items: center;
+<<<<<<< HEAD
+  gap: 50px;
+=======
   gap: 100px;
+>>>>>>> dc65d60d0dad71046a1a8ac24a8b5dc9abe9646e
 
 }
 .hero {
-  background-color: #1e40af;
+  background-color: #be2929;
   color: white;
   text-align: center;
   padding: 64px 16px;
@@ -50,10 +54,28 @@ header {
   border-radius: 4px;
   font-weight: bold;
   text-decoration: none;
+<<<<<<< HEAD
+  transition: all 0.9 ease;
+}
+.hero a:hover{
+  transform: translateY(2px);
+}
+.maps{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+#imageMaps{
+  width: 6%;
+  margin-bottom: 15px;
+=======
   transition: all 0.6 ease;
 }
 .hero a:hover{
   transform: translateY(-5px);
+>>>>>>> dc65d60d0dad71046a1a8ac24a8b5dc9abe9646e
 }
 .section {
   padding: 48px 16px;
@@ -129,14 +151,21 @@ iframe {
   margin-top: 16px;
 }
 
+<<<<<<< HEAD
+@media (max-width: 660px) {
+=======
 @media (max-width: 600px) {
+>>>>>>> dc65d60d0dad71046a1a8ac24a8b5dc9abe9646e
   .header-container {
     flex-direction: column;
     align-items: center;
     display: flex;
     justify-content: center;
   }
+<<<<<<< HEAD
+=======
 
+>>>>>>> dc65d60d0dad71046a1a8ac24a8b5dc9abe9646e
   .header-buttons {
     margin-top: 10px;
   }
@@ -147,4 +176,10 @@ iframe {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+<<<<<<< HEAD
+  #imageMaps{
+    width: 25%;
+  }
+=======
+>>>>>>> dc65d60d0dad71046a1a8ac24a8b5dc9abe9646e
 }
